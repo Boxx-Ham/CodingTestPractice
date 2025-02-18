@@ -1,0 +1,10 @@
+// 자동완성 기능 끄기
+{
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.snippetSuggestions": false,
+    "editor.hover.enabled": false
+}
