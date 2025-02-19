@@ -53,18 +53,20 @@ public class BAEKJOON1546 {
         }
 
         // 최고점은 max, 각 과목의 총 합은 sum에 저장
-        int max = 0;
+        int max = scores[0];
         int sum = 0;
         for (int i = 0; i < num; i++) {
-            if (max < scores[i]) {
-                max = scores[i];
-            }
+            // 2025-02-19 BoxxHam : 삼항연산자로 축약해 표현
+            // if (max < scores[i]) {
+            //     max = scores[i];
+            // }
+            max = max < scores[i] ? scores[i] : max;
 
             sum += scores[i];
         }
 
         // sum / max * 100 / num double형으로 형변환해 출력
-        // sum을 double형으로 전환하면 자동으로 실수연산
-        System.out.println((double)sum / max * 100 / num);
+        // sum을 double형으로 전환하면 자동으로 실수 연산
+        System.out.println(((double)sum / max) * 100.0 / num);
     }
 }
