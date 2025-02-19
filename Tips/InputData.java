@@ -21,7 +21,7 @@ public class InputData {
          * 바이트 스트림(InputStream)을 문자 스트림(Reader)으로 변환
          * e.g., System.in은 바이트 스트림이므로, 이를 문자 스트림으로 변환하기 위해 InputStreamReader 사용
          */
-        InputStreamReader isr = new InputStreamReader(System.in);
+        // InputStreamReader isr = new InputStreamReader(System.in);
 
         /*
          * BufferedReader

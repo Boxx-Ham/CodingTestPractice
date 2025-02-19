@@ -42,8 +42,9 @@ public class BAEKJOON11720 {
         // int형 변수 sum 선언
         int sum = 0;
 
+        // 2025-02-19 BoxxHam : cNum의 길이 만큼 반복 -> N 만큼 반복으로 수정
         // cNum의 길이만큼 반복
-        for (int i = 0; i < cNum.length; i++) {
+        for (int i = 0; i < N; i++) {
             // 배열의 각 자릿값을 정수형으로 변환해 sum에 더하여 누적
             sum += cNum[i] - '0';
         }
