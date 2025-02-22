@@ -1,7 +1,7 @@
 package PROGRAMMERS.Array;
 
 /*
- * 모의고사사
+ * 모의고사
  * 권장 시간 : 30분
  * 권장 시간 복잡도 : O(N)
  * 프로그래머스 68644번 (https://school.programmers.co.kr/learn/courses/30/lessons/42840)
