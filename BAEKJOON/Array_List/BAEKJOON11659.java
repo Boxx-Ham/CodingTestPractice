@@ -4,7 +4,7 @@ package BAEKJOON.Array_List;
  * 문제 003 : 구간 합 구하기 4
  * 시간 제한 0.5초 (연산횟수 50,000,000)
  * 난이도 실버 III
- * 백준 1659번 (https://www.acmicpc.net/problem/11659)
+ * 백준 11659번 (https://www.acmicpc.net/problem/11659)
  */
 
 /*
