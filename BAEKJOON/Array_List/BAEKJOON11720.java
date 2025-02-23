@@ -1,7 +1,7 @@
 package BAEKJOON.Array_List;
 
 /*
- * 문제 001 : 숫자의 합 구하기
+ * 문제 001 : 숫자의 합
  * 시간 제한 1초 (연산횟수 100,000,000)
  * 난이도 : 브론즈 II
  * 백준 11720번 (https://www.acmicpc.net/problem/11720)

@@ -1,7 +1,7 @@
 package BAEKJOON.Array_List;
 
 /*
- * 문제 002 : 평균 구하기
+ * 문제 002 : 평균
  * 시간 제한 2초 (연산횟수 200,000,000)
  * 난이도 : 브론즈 I
  * 백준 1546번 (https://www.acmicpc.net/problem/1546)
