@@ -1,4 +1,4 @@
-package BAEKJOON.Array_List;
+package BAEKJOON.DataStructure.ArrayList;
 
 /*
  * 문제 002 : 평균
