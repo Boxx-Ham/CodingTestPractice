@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.TwoPointers;
+package baekjoon.datastructure.twopointers;
 
 /*
  * 투 포인터 및 문제를 완벽히 이해하고 진행

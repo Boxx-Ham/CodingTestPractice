@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.TwoPointers;
+package baekjoon.datastructure.twopointers;
 
 /*
  * 기존 코드의 문제점

@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.RangeSum;
+package baekjoon.datastructure.rangesum;
 
 /*
  * 문제 004 : 구간 합 구하기 5

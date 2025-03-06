@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.RangeSum;
+package baekjoon.datastructure.rangesum;
 
 /*
  * 문제 005 : 나머지 합

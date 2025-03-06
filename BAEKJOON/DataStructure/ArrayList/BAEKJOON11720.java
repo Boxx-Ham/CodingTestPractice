@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.ArrayList;
+package baekjoon.datastructure.arraylist;
 
 /*
  * 문제 001 : 숫자의 합

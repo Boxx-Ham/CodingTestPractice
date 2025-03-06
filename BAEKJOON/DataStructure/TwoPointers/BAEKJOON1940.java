@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.TwoPointers;
+package baekjoon.datastructure.twopointers;
 
 /*
  * 문제 007 : 주몽

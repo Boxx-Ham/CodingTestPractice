@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.TwoPointers;
+package baekjoon.datastructure.twopointers;
 
 /*
  * 문제 006 : 수들의 합 5
