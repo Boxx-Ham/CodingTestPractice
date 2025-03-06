@@ -1,4 +1,4 @@
-package Tips;
+package tips;
 
 /*
  * Java 입력 처리 클래스

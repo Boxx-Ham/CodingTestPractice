@@ -1,4 +1,4 @@
-package Tips;
+package tips;
 
 /*
  * 자바에서의 형 변환

@@ -1,4 +1,4 @@
-package WormUpQuestion.Array;
+package wormipquestion.array;
 
 /*
  * 몸풀기 문제 2
