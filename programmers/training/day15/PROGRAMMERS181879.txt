@@ -1,0 +1,32 @@
+###1로 만들기 문제 분석
+
+조건 1 : num_list의 길이 >= 11 -> num_list의 모든 원소의 합
+조건 2 : num_list의 길이 <= 10 -> num_list의 모든 원소의 곱
+
+제한사항에 2,147,483,647을 넘는 입력 주어지지 않음으로 int 사용
+
+더하기 이면 결과 변수를 0으로 초기화해야 함
+곱하기 이면 결과 변수를 1로 초기화해야 함
+
+--------------------------------------------------------
+### 수도 코드
+
+int length = num_list.length;
+int result;
+
+if (length >= 11) {
+    result = 0;
+} else {
+    result = 1;
+}
+
+
+for (i -> 0 ~ length) {
+    if (length >= 11) {
+        result += num_list[i]
+    } else {
+        result *= num_list[i]
+    }
+}
+
+result 반환

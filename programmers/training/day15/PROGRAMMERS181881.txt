@@ -1,0 +1,73 @@
+###조건에 맞는 수열 변환하기 2 문제 분석
+
+분기가 2개로 나뉨
+1번 : arr 변환하기
+2번 : arr(x) = arr(x+1) 찾기
+
+1번 먼저
+
+조건 1 : 50 이상의 짝수 -> / 2
+조건 2 : 50 미만의 홀수 -> * 2 + 1
+
+2번의 x는 만족하는 배열 찾을 때까지 계속 반복하는 것 같음.
+
+arr(0) = [1, 2, 3, 100, 99, 98] -- arr의 기본 값
+arr(1) = [3, 2, 7, 50, 99, 49]
+arr(2) = [7, 2, 15, 25, 99, 99]
+arr(3) = [15, 2, 31, 51, 99, 99]
+arr(4) = [31, 2, 63, 51, 99, 99]
+arr(5) = [63, 2, 63, 51, 99, 99]
+arr(6) = [63, 2, 63, 51, 99, 99]
+
+5번과 6번이 같은 이유는 1번의 조건들을 만족하는 수가 없기 때문.
+
+즉, 언제부터 조건을 만족하지 않는지 알아내야 함
+
+불리언값 사용해볼까?
+
+flag 변수에 true를 넣고
+while (flag) 로 계속 반복
+
+안에는 조건 1, 조건 2에 대한 flag를 또 넣어줌
+firFlag, secFlag 이런 식으로 
+
+둘 다 기본 값은 true로 넣고
+if 문에 둘 다 true이면 flag 를 false로 바꾸는 거임
+
+그리고 조건 1 내부에 firFlag를 false, 조건 2 내부에 secFlag를 false로 바꾸는 로직 추가
+
+한 번이라도 조건 들어가면 false가 되서 넘어가는 게 됨 -> 배열이 계속 변한다는 증거
+
+while 문 안에 count 변수를 넣어서 x가 몇인지 기록 기본 값은 0
+arr(0)이 arr(1)이 되는 과정에서 둘 다 true를 뱉으면 변한게 없는게 되므로
+flag가 false가 되어 while 문 빠져나오고 count 를 뱉으면 됨
+
+
+--------------------------------------------------------
+### 수도 코드
+
+bool mainFlag = true;
+int count = 0;
+
+while (mainFlag) {  -- true이므로 계속 반복함
+    bool firFlag = true;
+    bool secFlag = true;
+
+    for (arr의 길이 만큼 반복) {
+        if (arr[i] 가 50 이상의 짝수) {
+            arr[i] / 2 해줌
+            firFlag를 false로 바꿈
+        } else if (arr[i]가 50 미만의 짝수) {
+            arr[i] * 2 + 1 해줌
+            secFlag를 false로 바꿈
+        }
+    }
+
+    if (firFlag랑 secFlag가 true이면) {
+        mainFlag를 false로 바꿈 <- 이러면 while문 빠져 나옴.
+    } else {
+        count++     <- count를 증가시키고 다음 로직 반복
+    }
+}
+
+count 반환
