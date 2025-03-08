@@ -36,12 +36,8 @@ public class PROGRAMMERS181879 {
     public static int solution(int[] num_list) {
         int length = num_list.length;
         // num_list의 길이가 11 이상인 경우에는 합이므로 result가 0
-        int result = 0;
-
         // num_list의 길이가 10 이하인 경우에는 곱이므로 result가 1
-        if (length <= 10) {
-            result = 1;
-        }
+        int result = length >= 11 ? 0 : 1;
 
         for (int i = 0; i < length; i++) {
             // num_list의 길이가 11 이상인 경우
