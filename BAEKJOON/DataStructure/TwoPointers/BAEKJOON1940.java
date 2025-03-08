@@ -28,6 +28,64 @@ package baekjoon.datastructure.twopointers;
  * 6 \n 9 \n 2 7 4 1 5 3    /   2
  */
 
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import java.util.StringTokenizer;
+import java.util.Arrays;
+
 public class BAEKJOON1940 {
-    
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // N 입력받기
+        int N = Integer.parseInt(br.readLine());
+
+        // M 입력받기
+        int M = Integer.parseInt(br.readLine());
+
+        // N 크기의 배열 arr 만들기
+        int[] arr = new int[N];
+
+        // arr의 값 입력 받기
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+
+        // arr 정렬하기
+        Arrays.sort(arr);
+
+        int p1 = 0;
+        int p2 = N - 1;
+        int count = 0;
+
+        // 갑옷 몇 개 만들 수 있는지 확인 로직
+        while (p1 < p2) {
+            // 경우 1 : arr[p1] + arr[p2] = M 인 경우
+            if (arr[p1] + arr[p2] == M) {
+                // 제일 작은 수와 제일 큰 수를 더했을 때 M이 나옴으로 제일 작은 수는 이제 끝남.
+                // 제일 큰 수보다 작은 수들을 제일 작은 수와 더해봤자 M이 나오지 않음으로 제일 큰 수 끝남.
+                // 따라서 p1 증가, p2 감소, count 증가
+                count++;
+                p1++;
+                p2--;
+
+            // 경우 2 : arr[p1] + arr[p2] < M 인 경우
+            } else if (arr[p1] + arr[p2] < M) {
+                // 제일 작은 수와 제일 큰 수를 더했어도 M보다 작다는 것은 제일 작은 수와 다른 수들을 더해도 M보다 작다는 것 의미
+                // 따라서 p1 증가
+                p1++;
+
+            // 경우 3 : arr[p1] + arr[p2] > M 인 경우
+            } else {
+                // 제일 작은 수와 제일 큰 수를 더했더니 M보다 커졌으므로 제일 큰 수보다 하나 작은 수로 변경해서 다시 비교
+                // 따라서 p2 감소
+                p2--;
+            }
+        }
+
+        System.out.println(count);
+    }
 }
