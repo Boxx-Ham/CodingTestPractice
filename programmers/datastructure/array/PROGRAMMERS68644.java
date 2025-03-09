@@ -1,7 +1,7 @@
 package programmers.datastructure.array;
 
 /*
- * 두 개 뽑아서 더하기
+ * 문제 03 : 두 개 뽑아서 더하기
  * 권장 시간 : 30분
  * 권장 시간 복잡도 : O(N^2log(N^2))
  * 프로그래머스 68644번 (https://school.programmers.co.kr/learn/courses/30/lessons/68644)
