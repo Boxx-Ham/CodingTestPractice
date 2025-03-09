@@ -2,7 +2,7 @@ package wormipquestion.array;
 
 /*
  * 몸풀기 문제 2
- * 배열 제어하기
+ * 문제 02 : 배열 제어하기
  * 
  * 권장 시간 : 10분
  * 권장 시간 복잡도 : O(NlogN)

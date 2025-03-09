@@ -2,7 +2,7 @@ package wormipquestion.array;
 
 /*
  * 몸풀기 문제 1
- * 배열 정렬하기
+ * 문제 01 : 배열 정렬하기
  * 
  * 권장 시간 : 10분
  * 권장 시간 복잡도 : O(NlogN)
