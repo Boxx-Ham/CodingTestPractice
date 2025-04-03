@@ -1,4 +1,4 @@
-package wormipquestion.array;
+package wormingquestion.array;
 
 /*
  * 몸풀기 문제 2
