@@ -1,4 +1,4 @@
-package tips;
+package BAEKJOON.Tips;
 
 /*
  * Java 입력 처리 클래스

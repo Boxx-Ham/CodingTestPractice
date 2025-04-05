@@ -1,4 +1,4 @@
-package programmers.training.day16;
+package PROGRAMMERS.Training.Day16;
 
 /*
  * alp가 String이므로 toUpperCase 사용하단걸 잊고 있었음.

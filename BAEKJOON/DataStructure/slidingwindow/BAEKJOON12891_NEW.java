@@ -1,4 +1,4 @@
-package baekjoon.datastructure.slidingwindow;
+package BAEKJOON.DataStructure.SlidingWindow;
 
 import java.io.IOException;
 import java.io.BufferedReader;

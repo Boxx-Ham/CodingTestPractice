@@ -1,4 +1,4 @@
-package baekjoon.datastructure.slidingwindow;
+package BAEKJOON.DataStructure.SlidingWindow;
 
 /*
  * 문제 010 : 최솟값 찾기

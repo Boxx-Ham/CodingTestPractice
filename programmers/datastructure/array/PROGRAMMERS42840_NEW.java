@@ -1,4 +1,4 @@
-package programmers.datastructure.array;
+package PROGRAMMERS.DataStructure.Array;
 
 import java.util.Arrays;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package wormupproblem.array;
+package PROGRAMMERS.WormUpProblem.Arrayroblem.array;
 
 /*
  * 몸풀기 문제 2

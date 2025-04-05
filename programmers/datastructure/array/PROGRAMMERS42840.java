@@ -1,4 +1,4 @@
-package programmers.datastructure.array;
+package PROGRAMMERS.DataStructure.Array;
 
 /*
  * 문제 04 : 모의고사

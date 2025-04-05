@@ -1,4 +1,4 @@
-package programmers.training.day17;
+package PROGRAMMERS.Training.Day17;
 
 /*
  * 코딩 기초 트레이닝

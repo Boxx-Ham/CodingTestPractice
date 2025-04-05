@@ -1,4 +1,4 @@
-package programmers.datastructure.array;
+package PROGRAMMERS.DataStructure.Array;
 
 /*
  * 문제 03 : 두 개 뽑아서 더하기

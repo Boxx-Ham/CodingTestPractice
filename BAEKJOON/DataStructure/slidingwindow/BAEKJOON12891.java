@@ -1,4 +1,4 @@
-package baekjoon.datastructure.slidingwindow;
+package BAEKJOON.DataStructure.SlidingWindow;
 
 /*
  * 문제 009 : DNA 비밀번호

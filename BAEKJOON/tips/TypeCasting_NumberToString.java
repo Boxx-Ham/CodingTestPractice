@@ -1,4 +1,4 @@
-package tips;
+package BAEKJOON.Tips;
 
 /*
  * 자바에서의 형 변환

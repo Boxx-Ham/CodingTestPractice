@@ -1,4 +1,4 @@
-package programmers.training.day16;
+package PROGRAMMERS.Training.Day16;
 
 /*
  * replace 메서드를 사용하면 되는데 그걸 몰라서 여러가지로 돌아왔다..
