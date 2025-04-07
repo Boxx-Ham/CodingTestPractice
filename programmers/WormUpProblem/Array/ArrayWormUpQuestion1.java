@@ -21,7 +21,7 @@ package PROGRAMMERS.WormUpProblem.Array;
 
 import java.util.Arrays;
 
-public class ArraysWormUpQuestion1 {
+public class ArrayWormUpQuestion1 {
     public static void main(String[] args) {
         int[] input1 = {1, -5, 2, 4, 3};
         int[] input2 = {2, 1, 1, 3, 2, 5, 4};
