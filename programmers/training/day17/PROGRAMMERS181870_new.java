@@ -13,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 
-public class PROGRAMMERS181870 {
+public class PROGRAMMERS181870_new {
     public static void main(String[] args) {
         String[] strArr1 = {"and", "notad", "abcd"};
         String[] strArr2 = {"there", "are", "no", "a", "ds"};
@@ -29,10 +29,10 @@ public class PROGRAMMERS181870 {
         // "ad"가 포함되어있지 않은 문자열을 담기 위한 ArrayList 선언
         List<String> result = new ArrayList<>();
 
-        // lastIndexOf 메서드 사용하여 "ad"가 들어있는지 확인
+        // constains 메서드 사용해서 "ad"가 들어있는지 확인
         for (String str : strArr) {
-            // 만약 -1이면 포함되지 않음 의미 -> result에 담기
-            if (str.lastIndexOf("ad") == -1) {
+            // 안들어있으면 담기
+            if (!str.contains("ad")) {
                 result.add(str);
             }
         }
