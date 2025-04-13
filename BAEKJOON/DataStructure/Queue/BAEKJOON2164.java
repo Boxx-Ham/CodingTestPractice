@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.StackAndQueue;
+package BAEKJOON.DataStructure.Queue;
 
 /*
  * 문제 013 : 카드2

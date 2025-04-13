@@ -1,4 +1,4 @@
-package BAEKJOON.DataStructure.StackAndQueue;
+package BAEKJOON.DataStructure.Queue;
 
 /*
  * 문제 014 : 절댓값 힙
